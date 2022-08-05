@@ -1,6 +1,6 @@
 {
   "name": "cra-template-burst",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Burst is the perfect template for react web applications.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/Arziburst/Burst/issues"
   },
-  "homepage": "https://github.com/Arziburst/Burst#readme"
+  "homepage": "https://github.com/Arziburst/Burst#readme",
+  "keywords": ["create-react-app", "webpack", "typescript", "react", "redux"]
 }
