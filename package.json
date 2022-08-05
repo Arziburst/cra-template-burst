@@ -1,6 +1,6 @@
 {
   "name": "cra-template-burst",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Burst is the perfect template for react web applications.",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arziburst/cra-template-burst.git"
+    "url": "git+https://github.com/Arziburst/Burst.git"
   },
   "author": "arziburst@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Arziburst/cra-template-burst/issues"
+    "url": "https://github.com/Arziburst/Burst/issues"
   },
-  "homepage": "https://github.com/Arziburst/cra-template-burst#readme"
+  "homepage": "https://github.com/Arziburst/Burst#readme"
 }
