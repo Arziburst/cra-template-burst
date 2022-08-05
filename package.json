@@ -1,20 +1,44 @@
 {
   "name": "cra-template-burst",
-  "version": "1.0.3",
-  "description": "Burst is the perfect template for react web applications.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.12",
+  "keywords": [
+    "create-react-app",
+    "template",
+    "webpack",
+    "typescript",
+    "react",
+    "redux"
+  ],
+  "description": "Burst is the perfect template for react SPA's.",
+  "main": "template.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Arziburst/Burst.git"
   },
   "author": "arziburst@gmail.com",
   "license": "ISC",
+  "engines": {
+    "node": ">=8"
+  },
   "bugs": {
     "url": "https://github.com/Arziburst/Burst/issues"
   },
+  "files": [
+    "template",
+    "template.json"
+  ],
   "homepage": "https://github.com/Arziburst/Burst#readme",
-  "keywords": ["create-react-app", "webpack", "typescript", "react", "redux"]
+  "eslintConfig": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

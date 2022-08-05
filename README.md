@@ -6,6 +6,11 @@ Typescript, webpack, react, redux are the basis of most SPA applications, and he
 
 Ready to use, just waiting for you!
 
+### How to install
+Burst can be installed in all possible ways, and can also be downloaded via npm.
+```sh
+npx create-react-app <your_project_name> --template burst
+```
 ### Features
  - Simple, flexible, extensible architecture
  - Custom modular Webpack
@@ -17,11 +22,11 @@ Ready to use, just waiting for you!
 ### Initializing
 Burst is easy to use and all it needs is installed `node_modules`.
 
-Also you can create `.env.development` and `.env.production` for better control you environment by example from `.env.example`.
+Also you can create `.env.development` and `.env.production` for better control you environment by example from `.env.example`.</br>
 If you do not create any `.env.**`, Burst use `.env.example` by default.
 
 ## Requirements
-❗️ NPM `v6.0.0 or later`
+❗️ NPM `v6.0.0 or later`</br>
 ❗️ Node `v14.0.0 of later`
 
 ### Available scripts
@@ -43,7 +48,7 @@ You may need to add code below to your `settings.json` in VSCode
 "eslint.format.enable": true,
 ```
 
-📍 Extention for VS Code `Better Comments (id: aaron-bond.better-comments)`
+📍 Extention for VS Code `Better Comments (id: aaron-bond.better-comments)`</br>
 Сolorizes your comments based on the config file ```.vscode/settings.json ```.
 
 ## Deploy
