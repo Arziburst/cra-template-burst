@@ -17,7 +17,7 @@ export const loadTypeScript = (): Configuration => ({
                 use:     {
                     loader:  'ts-loader',
                     options: {
-                        compilerOptions: { noEmit: false },
+                        compilerOptions:       { noEmit: false },
                         getCustomTransformers: () => ({ before: [ styledComponentsTransformer ]}),
                     },
                 },

@@ -5,8 +5,7 @@
         "rootDir": "scripts",
         "noImplicitReturns": false,
         "typeRoots": [ "node_modules/@types" ],
-        "noEmit": false
     },
-    "include": [ "scripts" ]
+    "include": [ "scripts" ],
 }
   
