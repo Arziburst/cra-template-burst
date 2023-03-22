@@ -1,8 +1,7 @@
 // Core
 import { CLIGen } from 'burst-generate-files';
-import { path as PROJECT_ROOT } from 'app-root-path';
 
-CLIGen(PROJECT_ROOT, [
+CLIGen([
     {
         name:      'Entity: ./src/bus/__entityName__',
         templates: [
@@ -225,6 +224,12 @@ CLIGen(PROJECT_ROOT, [
                         pattern:        '// MarkerGen books',
                         markerTemplate: './scripts/generate/templates/page/.genignore/book.ts',
                         pathToMarker:   './src/view/routes/book.ts',
+                    },
+                    {
+                        pattern:        /(\{\/\* MarkerGen route \*\/\})/,
+                        markerTemplate: './scripts/generate/templates/page/.genignore/route.ts',
+                        pathToMarker:   [ './src/view/routes/Private.tsx', './src/view/routes/Public.tsx' ],
+                        genDirection:   'before',
                     },
                 ],
             },
