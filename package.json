@@ -1,13 +1,14 @@
 {
   "name": "cra-template-burst",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "keywords": [
     "create-react-app",
     "template",
     "webpack",
     "typescript",
     "react",
-    "redux"
+    "redux",
+    "nori-store"
   ],
   "description": "Burst is the perfect template for react SPA's.",
   "main": "template.json",
